@@ -1,0 +1,136 @@
+<head>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body >
+    <h1 id='number'> </h1>
+    <img id='boardImg' src="/boards/standard.png"/>
+        
+    <table id="pastNum">
+      <tr>
+        <td id="value1"> </td>
+      </tr>
+      <tr>
+        <td id="value2"> </td>
+      </tr>
+      <tr>
+        <td id="value3"> </td>
+      </tr>
+    </table>
+   
+    <table id="allCalls">
+      <tr>
+        <td id="B1">B1</td>
+        <td id="B2">B2</td>
+        <td id="B3">B3</td>
+        <td id="B4">B4</td>
+        <td id="B5">B5</td>
+        <td id="B6">B6</td>
+        <td id="B7">B7</td>
+        <td id="B8">B8</td>
+        <td id="B9">B9</td>
+        <td id="B10">B10</td>
+        <td id="B11">B11</td>
+        <td id="B12">B12</td>
+        <td id="B13">B13</td>
+        <td id="B14">B14</td>
+        <td id="B15">B15</td>
+      </tr>
+      <tr>
+        <td id="I16">I16</td>
+        <td id="I17">I17</td>
+        <td id="I18">I18</td>
+        <td id="I19">I19</td>
+        <td id="I20">I20</td>
+        <td id="I21">I21</td>
+        <td id="I22">I22</td>
+        <td id="I23">I23</td>
+        <td id="I24">I24</td>
+        <td id="I25">I25</td>
+        <td id="I26">I26</td>
+        <td id="I27">I27</td>
+        <td id="I28">I28</td>
+        <td id="I29">I29</td>
+        <td id="I30">I30</td>
+      </tr>
+      <tr>
+        <td id="N31">N31</td>
+        <td id="N32">N32</td>
+        <td id="N33">N33</td>
+        <td id="N34">N34</td>
+        <td id="N35">N35</td>
+        <td id="N36">N36</td>
+        <td id="N37">N37</td>
+        <td id="N38">N38</td>
+        <td id="N39">N39</td>
+        <td id="N40">N40</td>
+        <td id="N41">N41</td>
+        <td id="N42">N42</td>
+        <td id="N43">N43</td>
+        <td id="N44">N44</td>
+        <td id="N45">N45</td>
+      </tr>
+         <tr>
+        <td id="G46">G46</td>
+        <td id="G47">G47</td>
+        <td id="G48">G48</td>
+        <td id="G49">G49</td>
+        <td id="G50">G50</td>
+        <td id="G51">G51</td>
+        <td id="G52">G52</td>
+        <td id="G53">G53</td>
+        <td id="G54">G54</td>
+        <td id="G55">G55</td>
+        <td id="G56">G56</td>
+        <td id="G57">G57</td>
+        <td id="G58">G58</td>
+        <td id="G59">G59</td>
+        <td id="G60">G60</td>
+      </tr>
+       <tr>
+        <td id="O61">O61</td>
+        <td id="O62">O62</td>
+        <td id="O63">O63</td>
+        <td id="O64">O64</td>
+        <td id="O65">O65</td>
+        <td id="O66">O66</td>
+        <td id="O67">O67</td>
+        <td id="O68">O68</td>
+        <td id="O69">O69</td>
+        <td id="O70">O70</td>
+        <td id="O71">O71</td>
+        <td id="O72">O72</td>
+        <td id="O73">O73</td>
+        <td id="O74">O74</td>
+        <td id="O75">O75</td>
+      </tr>
+    </table>
+    
+    
+    
+  <!--<div id="controls">-->
+    <select name="board type" id='boardSelect'>
+        <option value="Standard">Standard</option>
+        <option value="X">X</option>
+        <option value="Blackout">Blackout</option>
+        <option value="C">C</option>
+        <option value="H">H</option>
+        <option value="S">S</option>
+        <option value="Plus">Plus</option>
+        <option value="Star">Star</option>
+        <option value="Checkerboard">Checkerboard</option>
+        <option value="I">I</option>
+        <option value="4 Corners">4 Corners</option>
+        <option value="Around the World"> Around the World</option>
+    </select>
+   <p id='intervaltime'> 5 seconds </p>
+    
+    <input id='timeSlider' type="range" min="3"  max="30" value="5" class"slider"/>
+    
+    <img id='playBtn' src="/button/play.png"/>
+    
+    <button id='clearBtn' type="button">Reset</button>
+   
+    <h2 id='pastNumbers'> <h2>
+     <!--</div>   -->
+           <script src="game.js"></script>
